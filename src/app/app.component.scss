@@ -1,0 +1,47 @@
+.title {
+  h1 {
+    color: var(--primary);
+  }
+}
+
+
+.input-group {
+  height: 3.5rem;
+  input {
+    color: var(--gray-800);
+
+    background: var(--gray-100);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    border-bottom: 2px solid var(--gray-200);
+  }
+}
+
+form {
+  button {
+    width: 100%;
+    height: 3rem;
+
+    color: var(--light);
+    font-size: 1rem;
+    line-height: 24px;
+
+    background: var(--primary);
+  }
+}
+
+.money {
+  color: var(--primary);
+}
+
+.exchange-result {
+  height: 4.5rem;
+  background: rgba(7, 176, 251, .1);
+  // opacity: .1;
+
+  span {
+    color: var(--primary);
+    height: 100%;
+  }
+}

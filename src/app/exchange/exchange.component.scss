@@ -1,0 +1,14 @@
+.money {
+  color: var(--primary);
+}
+
+.exchange-result {
+  height: 4.5rem;
+  background: rgba(7, 176, 251, .1);
+  // opacity: .1;
+
+  span {
+    color: var(--primary);
+    height: 100%;
+  }
+}
