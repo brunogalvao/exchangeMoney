@@ -1,0 +1,35 @@
+.history {
+    background: var(--light);
+    padding: 1rem;
+
+    ul {
+        flex: 1;
+        display: flex;
+        li {
+            width: 50%;
+        }
+    }
+
+    .date {
+        color: var(--primary);
+        line-height: 22px;
+        font-weight: 600;
+    }
+    .table {
+        // display: flex;
+        // justify-content: space-around;
+        span {
+            font-size: .687rem;
+            width: 50%;
+            text-transform: uppercase;
+
+            b {
+                font-size: 1rem;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+.history + .history {
+    margin-top: 1.25rem;
+}

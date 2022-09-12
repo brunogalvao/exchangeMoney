@@ -7,20 +7,19 @@
 
   <form>
     <div class="input-group mb-3">
-      <input
-        type="text"
-        class="form-control"
-        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"
+      <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"
         placeholder="Enter the currency code">
     </div>
 
-    <button
-      class="text-uppercase rounded-pill border fw-semibold mt-4 mb-4"
-      onclick={teste()}>exchange result</button>
+    <button class="text-uppercase rounded-pill border fw-semibold mt-4 mb-4" onclick={teste()}>exchange result</button>
   </form>
 
   <app-exchange></app-exchange>
 
+  <app-extend-exchange></app-extend-exchange>
+
 </div>
+
+<!-- <app-footer></app-footer> -->
 
 <router-outlet></router-outlet>

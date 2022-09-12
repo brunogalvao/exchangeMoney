@@ -1,0 +1,29 @@
+<p>
+    <button
+        type="button"
+        class="btn"
+        
+        
+        aria-controls="collapseExample"> Toggle </button>
+</p>
+
+<div
+    class="pb-2 d-flex align-items-center justify-content-between text-uppercase fw-bold extendExchange"
+    (click)="collapse.toggle()"
+    [attr.aria-expanded]="!isCollapsed">
+    last 30 days <fa-icon [icon]="faPlus"></fa-icon>
+</div>
+
+<div
+    #collapse="ngbCollapse"
+    [(ngbCollapse)]="isCollapsed">
+    
+    <div class="card border-0 rounded-0 mt-3 mb-3">
+        <div class="card-body">
+
+            <app-history></app-history>
+            
+        </div>
+    </div>
+
+</div>
